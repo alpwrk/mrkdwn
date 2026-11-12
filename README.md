@@ -9,7 +9,7 @@ Built on [termimad](https://crates.io/crates/termimad).
 ## Build & install
 
 ```sh
-cargo install --path .
+cargo build --release && install -Dm755 target/release/mrkdwn ~/.local/bin/mrkdwn
 ```
 
 ## Usage
